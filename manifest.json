@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "Inverse",
+	"version": "1.0.0",
+
+  "description": "Invert the screen colors of the active Chrome tab.",
+	"icons": {
+		"48": "ic_invert_colors_black_48dp_1x.png"
+	},
+
+	"browser_action": {
+		"default_icon": "ic_invert_colors_black_18dp_1x.png"
+	},
+
+	"author": "Peter Han",
+	"background": {
+		"persistent": false,
+		"scripts": ["onclick.js"]
+	},
+
+	"permissions": [
+		"activeTab"
+	]
+}
