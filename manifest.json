@@ -1,7 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Inverse",
-	"version": "1.0.1",
+	"version": "1.0.2",
 
   "description": "Invert the screen colors of the active Chrome tab.",
 	"icons": {
